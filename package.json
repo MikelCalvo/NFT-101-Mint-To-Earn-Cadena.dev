@@ -1,0 +1,31 @@
+{
+  "name": "nft-101-mint-to-earn-cadena.dev",
+  "version": "1.0.0",
+  "description": "NFT project for the www.cadena.web NFT 101 Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikelCalvo/NFT-101-Mint-To-Earn-Cadena.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikelCalvo/NFT-101-Mint-To-Earn-Cadena.dev/issues"
+  },
+  "homepage": "https://github.com/MikelCalvo/NFT-101-Mint-To-Earn-Cadena.dev#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.9"
+  }
+}
