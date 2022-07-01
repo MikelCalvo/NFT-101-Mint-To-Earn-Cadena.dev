@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+# 💸 MKNFT MINT TO EARN -> [https://mknft.vercel.app/](https://mknft.vercel.app/) 💸
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Rinkeby NFT collection that pays you to mint it [(Example)](https://rinkeby.etherscan.io/tx/0xc6a22e969a2e89ff292b6a69c2caa9299e22ed6743fc278142619e355cfc147c)
 
-Try running some of the following tasks:
+This website is part of the course NFT 101 from [cadena.dev](https://cadena.dev)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+by mikelcalvo.eth
