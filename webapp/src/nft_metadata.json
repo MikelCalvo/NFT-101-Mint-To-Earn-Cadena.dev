@@ -1,0 +1,74 @@
+[
+  {
+    "name": "MikelCalvoNFTs #1",
+    "description": "Mikel's NFT Collection for Cadena NFT 101 Course",
+    "image": "https://gateway.pinata.cloud/ipfs/QmY9yNrBV74LC7AqeKvhh4NV4Y7U1yMxvgoGFJiyFg3Y11/1.png",
+    "dna": "c37496ce9794d140f9f8acc0ca276d75ed3abc3c",
+    "edition": 1,
+    "date": 1656713930019,
+    "artist": "Cadena",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "void"
+      },
+      {
+        "trait_type": "Planet",
+        "value": "venus"
+      },
+      {
+        "trait_type": "Logo",
+        "value": "mikel"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "MikelCalvoNFTs #2",
+    "description": "Mikel's NFT Collection for Cadena NFT 101 Course",
+    "image": "https://gateway.pinata.cloud/ipfs/QmY9yNrBV74LC7AqeKvhh4NV4Y7U1yMxvgoGFJiyFg3Y11/2.png",
+    "dna": "76b13e45e13ccd3dee7229dbbedc3b37093817d7",
+    "edition": 2,
+    "date": 1656713930868,
+    "artist": "Cadena",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "stars"
+      },
+      {
+        "trait_type": "Planet",
+        "value": "mars"
+      },
+      {
+        "trait_type": "Logo",
+        "value": "mikel"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  },
+  {
+    "name": "MikelCalvoNFTs #3",
+    "description": "Mikel's NFT Collection for Cadena NFT 101 Course",
+    "image": "https://gateway.pinata.cloud/ipfs/QmY9yNrBV74LC7AqeKvhh4NV4Y7U1yMxvgoGFJiyFg3Y11/3.png",
+    "dna": "690ec77593f9a0b5391afb20163e955774f64bee",
+    "edition": 3,
+    "date": 1656713931606,
+    "artist": "Cadena",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "void"
+      },
+      {
+        "trait_type": "Planet",
+        "value": "earth"
+      },
+      {
+        "trait_type": "Logo",
+        "value": "mikel"
+      }
+    ],
+    "compiler": "HashLips Art Engine"
+  }
+]

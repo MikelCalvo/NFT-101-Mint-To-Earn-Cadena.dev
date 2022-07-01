@@ -13,7 +13,7 @@ contract MKNFT is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     uint256 public constant MAX_SUPPLY = 1000000;
     uint256 public constant MINT_REWARD = 0.001 ether;
 
-    constructor() ERC721("MKNFT", "MKNFT") {
+    constructor() ERC721("MKNFT", "MKNFT") payable {
         // Initialize the tokenIdCounter to start 1
         _tokenIdCounter.increment();
     }
@@ -23,7 +23,7 @@ contract MKNFT is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
         return "";
     }
 
-    function safeMint(address to, string memory uri) public payable  {
+    function safeMint(address to, string memory uri) public  {
         require (address(this).balance >= MINT_REWARD, 'We are out of ETH, sorry!');
         require(totalSupply() < MAX_SUPPLY, "Max supply reached");
 
@@ -31,7 +31,7 @@ contract MKNFT is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
-        payable(to).transfer(MINT_REWARD);
+        Address.sendValue(payable(msg.sender), MINT_REWARD);
     }
 
     //all this is coming from Ownable
